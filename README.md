@@ -5,4 +5,6 @@
 
 Listed in **"requirements.txt"**.
 
-'> pip install -r requirements.txt'
+'''ruby
+> pip install -r requirements.txt
+'''
