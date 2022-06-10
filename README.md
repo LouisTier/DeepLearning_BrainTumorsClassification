@@ -21,10 +21,9 @@ This project was done in a school context with two other classmates. The scope a
 We decided to specialize more specifically in **Deep Learning** to have this first experience instead of doing only a Machine Learning project with regression or classification as the rest of the class was doing.
 In addition to that, we chose a topic related to the **medical field** because we are interested in these applications and are clearly interested in **pursuing a career in data science applied to medicine**.
 
-## 2. 
+## 2. Data
 
-
-
+The data comes from a training set made available on Kaggle, more precisely at the following address: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
 
 
 ## Requirements
