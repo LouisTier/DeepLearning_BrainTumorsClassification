@@ -89,7 +89,7 @@ Also, we were interested in the 'AUC' metric rather than the 'acc' metric becaus
 ## **5. Results**
 
 In our case, the data augmentation was inconclusive. Therefore, for our final model we use the **'SGD' optimizer** (generally better than Adam for small datasets) and **without DA**.
-![image](https://user-images.githubusercontent.com/105392989/173243416-ab6e0ee7-de40-4a84-af35-1b9915639d74.png)
+![image](https://user-images.githubusercontent.com/105392989/173243416-ab6e0ee7-de40-4a84-af35-1b9915639d74.png#center)
 
 ## **Requirements**
 
