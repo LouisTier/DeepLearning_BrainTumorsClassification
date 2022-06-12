@@ -59,7 +59,7 @@ modelCNN_examp.compile(loss='binary_crossentropy', optimizer=optimizers.SGD(lr=1
 
 Our dataset contains little data, so we sought to increase it. A simple procedure is to use **Data Augmentation** (DA) which artificially modifies some of the images in our training dataset to **increase the amount of data to be trained**. In addition to augmentation, this allows us to **diversify the data** without actually collecting any. Finally, the objective is to **limit overfitting** since our CNN will consider the generated images as distinct.
 
-![image](https://user-images.githubusercontent.com/105392989/173243032-e2fbbed4-65ec-42f3-8f2c-14185588a124.png)
+![image](https://user-images.githubusercontent.com/105392989/173243032-e2fbbed4-65ec-42f3-8f2c-14185588a124.png#center)
 
 Here are **all the transformations** applied to our images:
   - Rotations of the image
