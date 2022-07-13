@@ -29,9 +29,11 @@ In these images, there are **two categories**, namely *images showing a brain tu
 Some additional criteria are noted:
   - The images do not all have the same dimensions. Both on the ordinate and on the abscissa.
   - For similar areas, the light intensity of the pixels varies
-
-![image](https://user-images.githubusercontent.com/105392989/173240156-40e1e183-0cc9-48ba-a274-d2c84a99d3dd.png)
-![image](https://user-images.githubusercontent.com/105392989/173240162-b208cece-ce39-4463-bed3-936d2df30718.png)
+  
+<div id="tumor" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/173240156-40e1e183-0cc9-48ba-a274-d2c84a99d3dd.png" width="250">
+  <img src="https://user-images.githubusercontent.com/105392989/173240162-b208cece-ce39-4463-bed3-936d2df30718.png" width="258">
+</div>
 
 ## **3. The process**
 
@@ -59,7 +61,9 @@ modelCNN_examp.compile(loss='binary_crossentropy', optimizer=optimizers.SGD(lr=1
 
 Our dataset contains little data, so we sought to increase it. A simple procedure is to use **Data Augmentation** (DA) which artificially modifies some of the images in our training dataset to **increase the amount of data to be trained**. In addition to augmentation, this allows us to **diversify the data** without actually collecting any. Finally, the objective is to **limit overfitting** since our CNN will consider the generated images as distinct.
 
-![image](https://user-images.githubusercontent.com/105392989/173243032-e2fbbed4-65ec-42f3-8f2c-14185588a124.png#center)
+<div id="generator" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/173243032-e2fbbed4-65ec-42f3-8f2c-14185588a124.png" width="400">
+</div>
 
 Here are **all the transformations** applied to our images:
   - Rotations of the image
@@ -89,7 +93,10 @@ Also, we were interested in the 'AUC' metric rather than the 'acc' metric becaus
 ## **5. Results**
 
 In our case, the data augmentation was inconclusive. Therefore, for our final model we use the **'SGD' optimizer** (generally better than Adam for small datasets) and **without DA**.
-![image](https://user-images.githubusercontent.com/105392989/173243416-ab6e0ee7-de40-4a84-af35-1b9915639d74.png#center)
+
+<div id="results" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/173243416-ab6e0ee7-de40-4a84-af35-1b9915639d74.png" width="900">
+</div>
 
 ## **Requirements**
 
